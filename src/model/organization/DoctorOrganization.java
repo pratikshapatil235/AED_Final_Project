@@ -1,13 +1,25 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package model.organization;
+import java.util.ArrayList;
+import model.role.VeterinarianRole;
+import model.role.Role;
 
-/**
- *
- * @author gayat
- */
-public class DoctorOrganization {
+
+
+public class DoctorOrganization extends Organization{
+
+    public DoctorOrganization(String name) {
+        super(Organization.Type.Veterinarian.getValue());
+    }
+    
+    // added veterinarian role in roles arraylist 
+    @Override
+    public ArrayList<Role> getValidRole() {
+        ArrayList<Role> roles = new ArrayList();
+        roles.add(new VeterinarianRole());
+        return roles;
+    }
+
+    
+    
     
 }
