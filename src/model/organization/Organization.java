@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public abstract class Organization {
 
     private String organizationName;
-    private TaskBuffer taskBuffer;
+    private TaskBuffer workQueue;
     private EmployeeDirectory employeeDirectory;
     private UserDirectory userAccountDirectory;
     private int organizationID;
@@ -19,12 +19,12 @@ public abstract class Organization {
 
     public enum Type {
 
-        //HealthCare Organization Types:
-        Admin("Admin Organization"), Veterinarian("Veterinarian Organization"), Lab("Lab Organization"), PawPatient("Paw Patient Organization"), Accountant("Accountant Organization"),
+        //HealthCareSystem Organization Types:
+        Admin("Admin Organization"), Veterinarian("Veterinarian Organization"), Lab("Lab Organization"), PawPatient("Patient Organization"), Accountant("Accountant Organization"),
         //Insurance Organization Types:
         InsuranceAgent("Insurance Agent Organization"), InsurancePolicyPlanner("Insurance Policy Planning Organization"), InsuranceFinanceOrganization("Insurance Finance Organization"),
         //Ngo Organization Types
-        AngelInvestor("AngelInvestor Organization"), NGOHead("NGO Head Organization"), HealthcareOfficer("Healthcare Officer Organization"),
+        AngelInvestor("AngelInvestor Organization"), NGOHead("Secretary Organization"), HealthcareOfficer("Healthcare Officer Organization"),
         //Emergency Rescue Organization types
         Rescuer("Rescuer Organization");
 
@@ -41,7 +41,7 @@ public abstract class Organization {
 
     public Organization(String name) {
         this.organizationName = name;
-        taskBuffer = new TaskBuffer();
+        workQueue = new TaskBuffer();
         employeeDirectory = new EmployeeDirectory();
         userAccountDirectory = new UserDirectory();
         organizationID = counter;
@@ -66,16 +66,16 @@ public abstract class Organization {
         return organizationName;
     }
 
-    public TaskBuffer getTaskBuffer() {
-        return taskBuffer;
+    public TaskBuffer getWorkQueue() {
+        return workQueue;
     }
 
     public void setName(String name) {
         this.organizationName = name;
     }
 
-    public void setTaskBuffer(TaskBuffer taskBuffer) {
-        this.taskBuffer = taskBuffer;
+    public void setWorkQueue(TaskBuffer workQueue) {
+        this.workQueue = workQueue;
     }
 
     @Override
