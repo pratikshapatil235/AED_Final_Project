@@ -2,7 +2,7 @@ package model.patient;
 
 import model.insuranceCustomer.InsuranceCustomer;
 
-public class Patient {
+public class PawPatient {
 
     private String patientId;
     private String patientLastName;
@@ -26,7 +26,7 @@ public class Patient {
 
     private InsuranceCustomer insuranceCustomer;
 
-    public Patient() {
+    public PawPatient() {
 
     }
 
