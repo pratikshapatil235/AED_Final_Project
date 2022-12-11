@@ -64,6 +64,7 @@ public class InsuranceFinanceProcessRequest extends javax.swing.JPanel {
 
         btnDisburse.setBackground(new java.awt.Color(102, 102, 0));
         btnDisburse.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        btnDisburse.setForeground(new java.awt.Color(255, 255, 255));
         btnDisburse.setText("Disburse Amount");
         btnDisburse.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -75,6 +76,7 @@ public class InsuranceFinanceProcessRequest extends javax.swing.JPanel {
 
         btnReject.setBackground(new java.awt.Color(102, 102, 0));
         btnReject.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        btnReject.setForeground(new java.awt.Color(255, 255, 255));
         btnReject.setText("Reject Claim");
         btnReject.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -96,14 +98,15 @@ public class InsuranceFinanceProcessRequest extends javax.swing.JPanel {
 
         backBtn.setBackground(new java.awt.Color(102, 102, 0));
         backBtn.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        backBtn.setText("<<Back");
+        backBtn.setForeground(new java.awt.Color(255, 255, 255));
+        backBtn.setText("Back");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 backBtnActionPerformed(evt);
             }
         });
         add(backBtn);
-        backBtn.setBounds(10, 23, 75, 29);
+        backBtn.setBounds(10, 23, 72, 29);
 
         txtPolicyNumber.setEditable(false);
         add(txtPolicyNumber);
