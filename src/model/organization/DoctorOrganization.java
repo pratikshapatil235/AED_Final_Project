@@ -7,7 +7,7 @@ import model.role.Role;
 
 public class DoctorOrganization extends Organization{
 
-    public DoctorOrganization(String name) {
+    public DoctorOrganization() {
         super(Organization.Type.Veterinarian.getValue());
     }
     

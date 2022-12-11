@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class SecretaryOrganization extends Organization {
 
     public SecretaryOrganization() {
-        super(Organization.Type.Secretary.getValue());
+        super(Organization.Type.NGOHead.getValue());
     }
 
     @Override

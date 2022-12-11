@@ -3,9 +3,9 @@ import java.util.ArrayList;
 import model.role.TestingLabAssistantRole;
 import model.role.Role;
 
-public class TestingOrganization extends Organization{
+public class TestingLabOrganization extends Organization{
 
-    public TestingOrganization() {
+    public TestingLabOrganization() {
         super(Organization.Type.Lab.getValue());
     }
     @Override
