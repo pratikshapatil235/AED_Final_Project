@@ -3,12 +3,12 @@ package model.taskbuffer;
 public class AngelInvestFundRequest extends TaskRequest {
 
     private String location;
-    private int population;
+    
     private double requestAmount;
 
-    public AngelInvestFundRequest(String location, int population, double requestAmount) {
+    public AngelInvestFundRequest(String location, double requestAmount) {
         this.location = location;
-        this.population = population;
+        
         this.requestAmount = requestAmount;
 
     }
@@ -26,13 +26,7 @@ public class AngelInvestFundRequest extends TaskRequest {
         this.location = location;
     }
 
-    public int getPopulation() {
-        return population;
-    }
-
-    public void setPopulation(int population) {
-        this.population = population;
-    }
+   
 
     public double getRequestAmount() {
         return requestAmount;
