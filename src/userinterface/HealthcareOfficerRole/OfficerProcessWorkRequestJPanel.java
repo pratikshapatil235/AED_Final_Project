@@ -2,7 +2,7 @@ package userinterface.HealthcareOfficerRole;
 
 import model.enterprise.Enterprise;
 import model.organization.Organization;
-import model.organization.SecretaryOrganization;
+import model.organization.NGOHeadOrganization;
 import model.userAccount.User;
 import model.taskbuffer.AngelInvestFundRequest;
 import java.awt.CardLayout;
@@ -199,7 +199,7 @@ public class OfficerProcessWorkRequestJPanel extends javax.swing.JPanel {
 
                 Organization org = null;
                 for (Organization organization : enterprise.getOrganizationDirectory().getOrganizationsDirectory()) {
-                    if (organization instanceof SecretaryOrganization) {
+                    if (organization instanceof NGOHeadOrganization) {
                         org = organization;
                         break;
                     }

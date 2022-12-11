@@ -1,7 +1,7 @@
 
 
 package model.role;
-import model.organization.SecretaryOrganization;
+import model.organization.NGOHeadOrganization;
 import model.userAccount.User;
 import model.PawcareSystem;
 import model.enterprise.Enterprise;
@@ -14,7 +14,7 @@ public class NGOHeadRole extends Role{
     @Override
     public JPanel displayWorkArea(JPanel userProcessContainer, User userAccount, Organization organization, Enterprise enterprise, PawcareSystem business) {
         return new NGOHeadWorkAreaJPanel(userProcessContainer, userAccount, 
-                (SecretaryOrganization)organization, enterprise, business);
+                (NGOHeadOrganization)organization, enterprise, business);
     }
     
 }

@@ -4,9 +4,9 @@ import model.role.NGOHeadRole;
 import model.role.Role;
 import java.util.ArrayList;
 
-public class SecretaryOrganization extends Organization {
+public class NGOHeadOrganization extends Organization {
 
-    public SecretaryOrganization() {
+    public NGOHeadOrganization() {
         super(Organization.Type.NGOHead.getValue());
     }
 
