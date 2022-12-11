@@ -76,7 +76,6 @@ public class RequestAngelInvestmentJPanel extends javax.swing.JPanel {
         jLabel5 = new javax.swing.JLabel();
         txtFundsReceived = new javax.swing.JTextField();
         backJButton = new javax.swing.JButton();
-        jLabel6 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(255, 255, 255));
         setLayout(null);
@@ -181,10 +180,6 @@ public class RequestAngelInvestmentJPanel extends javax.swing.JPanel {
         });
         add(backJButton);
         backJButton.setBounds(10, 11, 79, 20);
-
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/donate.jpeg"))); // NOI18N
-        add(jLabel6);
-        jLabel6.setBounds(0, 20, 800, 730);
     }// </editor-fold>//GEN-END:initComponents
 
     private void txtLocationActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtLocationActionPerformed
@@ -252,7 +247,6 @@ public class RequestAngelInvestmentJPanel extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JLabel lblRequestFunds;
     private javax.swing.JTextField txtAmount;
