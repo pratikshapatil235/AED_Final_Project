@@ -1,13 +1,29 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package model.enterprise;
 
-/**
- *
- * @author Sahil
- */
-public class NGOEnterprise {
-    
+import model.organization.Organization;
+import model.role.Role;
+import java.util.ArrayList;
+import java.util.List;
+
+public class NGOEnterprise extends Enterprise {
+
+    public NGOEnterprise(String name) {
+        super(name, Enterprise.EnterpriseType.NGO);
+    }
+
+    @Override
+    public ArrayList<Role> getValidRole() {
+        return null;
+    }
+
+    @Override
+    public List<Organization.Type> getTypesOfOrganizations() {
+        List<Organization.Type> orgTypes = new ArrayList<>();
+        orgTypes.add(Organization.Type.HealthcareOfficer);
+        orgTypes.add(Organization.Type.NGOHead);
+        orgTypes.add(Organization.Type.AngelInvestor);
+
+        return orgTypes;
+    }
+
 }
