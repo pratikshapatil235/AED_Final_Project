@@ -88,7 +88,7 @@ public class AngelInvestmentProcessWorkRequestJPanel extends javax.swing.JPanel 
         jLabel3.setText("Amount");
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jLabel1.setText("Angle Investor Work Area");
+        jLabel1.setText("Angel Investor Work Area");
 
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/docdog_1.jpg"))); // NOI18N
         jLabel6.setText("jLabel6");
