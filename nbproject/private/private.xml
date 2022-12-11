@@ -3,15 +3,8 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/gayat/Desktop/AED_Final_Project/AED_Final_Project/src/model/taskbuffer/AngelInvestFundRequest.java</file>
-            <file>file:/C:/Users/gayat/Desktop/AED_Final_Project/AED_Final_Project/src/model/taskbuffer/LabTestWorkRequest.java</file>
-            <file>file:/C:/Users/gayat/Desktop/AED_Final_Project/AED_Final_Project/src/model/taskbuffer/RescueRequest.java</file>
-            <file>file:/C:/Users/gayat/Desktop/AED_Final_Project/AED_Final_Project/src/model/enterprise/EnterpriseDirectory.java</file>
-            <file>file:/C:/Users/gayat/Desktop/AED_Final_Project/AED_Final_Project/src/model/organization/SecretaryOrganization.java</file>
-            <file>file:/C:/Users/gayat/Desktop/AED_Final_Project/AED_Final_Project/src/model/taskbuffer/AccountantBillingRequest.java</file>
-            <file>file:/C:/Users/gayat/Desktop/AED_Final_Project/AED_Final_Project/src/model/role/AngelInvestorRole.java</file>
-            <file>file:/C:/Users/gayat/Desktop/AED_Final_Project/AED_Final_Project/src/model/taskbuffer/PawPatientTreatmentWorkRequest.java</file>
-            <file>file:/C:/Users/gayat/Desktop/AED_Final_Project/AED_Final_Project/src/model/role/AccountantRole.java</file>
+            <file>file:/Users/pratikshapatil/Desktop/endgameee/AED_Final_Project/src/userinterface/MainJFrame.java</file>
+            <file>file:/Users/pratikshapatil/Desktop/endgameee/AED_Final_Project/src/model/db4OUtil/DatabaseConnector.java</file>
         </group>
     </open-files>
 </project-private>
