@@ -2,7 +2,8 @@ package model.role;
 
 import model.PawcareSystem;
 import model.enterprise.Enterprise;
-import model.organization.InsuranceFinanceOrganization;
+import model.organization.InsuranceFinanceOrganizatio
+        n;
 import model.organization.Organization;
 import model.userAccount.User;
 import javax.swing.JPanel;
