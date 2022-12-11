@@ -38,8 +38,9 @@ public class InsuranceAgentWorkAreaJPanel extends javax.swing.JPanel {
 
         btnAddNewUser = new javax.swing.JButton();
         btnProcessInsuranceRequests = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(217, 203, 161));
+        setBackground(new java.awt.Color(255, 255, 255));
         setLayout(null);
 
         btnAddNewUser.setBackground(new java.awt.Color(102, 102, 0));
@@ -52,7 +53,7 @@ public class InsuranceAgentWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
         add(btnAddNewUser);
-        btnAddNewUser.setBounds(120, 190, 184, 41);
+        btnAddNewUser.setBounds(60, 280, 184, 41);
 
         btnProcessInsuranceRequests.setBackground(new java.awt.Color(102, 102, 0));
         btnProcessInsuranceRequests.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
@@ -64,7 +65,12 @@ public class InsuranceAgentWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
         add(btnProcessInsuranceRequests);
-        btnProcessInsuranceRequests.setBounds(380, 190, 200, 39);
+        btnProcessInsuranceRequests.setBounds(350, 280, 200, 39);
+
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/insaurance3.jpg"))); // NOI18N
+        jLabel2.setText("jLabel2");
+        add(jLabel2);
+        jLabel2.setBounds(-60, 50, 690, 350);
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnAddNewUserActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAddNewUserActionPerformed
@@ -86,5 +92,6 @@ public class InsuranceAgentWorkAreaJPanel extends javax.swing.JPanel {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnAddNewUser;
     private javax.swing.JButton btnProcessInsuranceRequests;
+    private javax.swing.JLabel jLabel2;
     // End of variables declaration//GEN-END:variables
 }
