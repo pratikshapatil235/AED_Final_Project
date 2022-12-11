@@ -230,7 +230,7 @@
               <Properties>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="/Users/pratikshapatil/Desktop/endgameee/AED_Final_Project/src/Images/dog7.png"/>
+                  <Image iconType="3" name="/Images/dog7.png"/>
                 </Property>
               </Properties>
             </Component>
@@ -260,7 +260,7 @@
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="/Users/pratikshapatil/Desktop/endgameee/AED_Final_Project/src/Images/frontpageee.gif"/>
+                  <Image iconType="3" name="/Images/frontpageee.gif"/>
                 </Property>
                 <Property name="toolTipText" type="java.lang.String" value=""/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
