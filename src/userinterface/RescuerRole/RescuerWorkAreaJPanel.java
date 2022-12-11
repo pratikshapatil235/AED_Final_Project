@@ -2,7 +2,7 @@ package userinterface.RescuerRole;
 
 import model.enterprise.Enterprise;
 import model.organization.Organization;
-import model.organization.SecretaryOrganization;
+import model.organization.NGOHeadOrganization;
 import model.userAccount.User;
 import model.taskbuffer.TaskRequest;
 import java.awt.CardLayout;

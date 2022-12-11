@@ -37,7 +37,7 @@ public class OrganizationDirectory {
             organization = new HealthCareOfficerOrganization();
             organizationsDirectory.add(organization);
         } else if(type.getValue().equals(Type.NGOHead.getValue())) {
-            organization = new SecretaryOrganization();
+            organization = new NGOHeadOrganization();
             organizationsDirectory.add(organization);
         } else if(type.getValue().equals(Type.AngelInvestor.getValue())) {
             organization = new FinancialOrganization();
