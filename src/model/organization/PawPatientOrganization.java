@@ -1,5 +1,6 @@
 package model.organization;
 import java.util.ArrayList;
+import model.role.PatientRole;
 import model.role.VeterinarianRole;
 import model.role.Role;
 // Extended Organization
