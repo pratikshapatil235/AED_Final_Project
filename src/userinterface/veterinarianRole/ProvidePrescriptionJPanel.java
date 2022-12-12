@@ -51,7 +51,6 @@ public class ProvidePrescriptionJPanel extends javax.swing.JPanel {
         txt6 = new javax.swing.JTextField();
         btn4 = new javax.swing.JButton();
         backJButton = new javax.swing.JButton();
-        jLabel2 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(255, 255, 255));
@@ -75,7 +74,7 @@ public class ProvidePrescriptionJPanel extends javax.swing.JPanel {
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel7.setText("First Name :");
         add(jLabel7);
-        jLabel7.setBounds(240, 180, 73, 15);
+        jLabel7.setBounds(240, 180, 71, 15);
 
         jLabel10.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel10.setText("Last Name :");
@@ -103,7 +102,7 @@ public class ProvidePrescriptionJPanel extends javax.swing.JPanel {
         jLabel27.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel27.setText("Age :");
         add(jLabel27);
-        jLabel27.setBounds(280, 280, 31, 15);
+        jLabel27.setBounds(280, 280, 32, 15);
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel3.setText("Prescription :");
@@ -152,15 +151,9 @@ public class ProvidePrescriptionJPanel extends javax.swing.JPanel {
             }
         });
         add(backJButton);
-        backJButton.setBounds(29, 11, 90, 20);
-
-        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/doctor2.gif"))); // NOI18N
-        add(jLabel2);
-        jLabel2.setBounds(610, -100, 360, 0);
+        backJButton.setBounds(29, 11, 90, 21);
 
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/dog9.jpg"))); // NOI18N
-        jLabel5.setText("jLabel5");
         add(jLabel5);
         jLabel5.setBounds(590, 70, 500, 350);
     }// </editor-fold>//GEN-END:initComponents
@@ -202,7 +195,6 @@ public class ProvidePrescriptionJPanel extends javax.swing.JPanel {
     private javax.swing.JButton btn4;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel27;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;

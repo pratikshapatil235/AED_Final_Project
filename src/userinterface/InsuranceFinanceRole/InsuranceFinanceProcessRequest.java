@@ -57,7 +57,6 @@ public class InsuranceFinanceProcessRequest extends javax.swing.JPanel {
         txtSSN = new javax.swing.JTextField();
         jLabel9 = new javax.swing.JLabel();
         txtCoverage = new javax.swing.JTextField();
-        jLabel2 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(255, 255, 255));
         setLayout(null);
@@ -161,12 +160,6 @@ public class InsuranceFinanceProcessRequest extends javax.swing.JPanel {
         txtCoverage.setEditable(false);
         add(txtCoverage);
         txtCoverage.setBounds(280, 120, 116, 23);
-
-        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/insurance finance.gif"))); // NOI18N
-        jLabel2.setVerticalAlignment(javax.swing.SwingConstants.TOP);
-        add(jLabel2);
-        jLabel2.setBounds(0, 0, 720, 440);
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnDisburseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDisburseActionPerformed
@@ -213,7 +206,6 @@ public class InsuranceFinanceProcessRequest extends javax.swing.JPanel {
     private javax.swing.JButton btnDisburse;
     private javax.swing.JButton btnReject;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel6;

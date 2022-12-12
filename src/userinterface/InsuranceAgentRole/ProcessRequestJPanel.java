@@ -49,7 +49,6 @@ public class ProcessRequestJPanel extends javax.swing.JPanel {
         jLabel6 = new javax.swing.JLabel();
         txtBillAmount = new javax.swing.JTextField();
         btnBack = new javax.swing.JButton();
-        jLabel7 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(255, 255, 255));
@@ -144,10 +143,6 @@ public class ProcessRequestJPanel extends javax.swing.JPanel {
         add(btnBack);
         btnBack.setBounds(10, 11, 72, 25);
 
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/insurance claim.gif"))); // NOI18N
-        add(jLabel7);
-        jLabel7.setBounds(-30, -50, 0, 0);
-
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/insaurance1.jpg"))); // NOI18N
         add(jLabel1);
         jLabel1.setBounds(590, 20, 560, 360);
@@ -241,7 +236,6 @@ public class ProcessRequestJPanel extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
     private javax.swing.JTextField txtBillAmount;
     private javax.swing.JTextField txtClaimAmount;
     private javax.swing.JTextField txtCustomerName;
