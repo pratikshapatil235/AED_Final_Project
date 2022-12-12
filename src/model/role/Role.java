@@ -45,7 +45,9 @@ public abstract class Role {
 
     @Override
     public String toString() {
-        return this.getClass().getName();
+        String className = this.getClass().getName();
+        String[] splitStr = className.split("\\.");
+        return splitStr[splitStr.length - 1];
     }
 
 }
