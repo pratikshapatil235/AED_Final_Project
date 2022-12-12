@@ -63,6 +63,7 @@ public class ProcessMedicalBillingsJPanel extends javax.swing.JPanel {
 
         btnProceedFurther.setBackground(new java.awt.Color(102, 102, 0));
         btnProceedFurther.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        btnProceedFurther.setForeground(new java.awt.Color(255, 255, 255));
         btnProceedFurther.setText("Proceed Further");
         btnProceedFurther.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -115,6 +116,7 @@ public class ProcessMedicalBillingsJPanel extends javax.swing.JPanel {
 
         btnAllocateToMe.setBackground(new java.awt.Color(102, 102, 0));
         btnAllocateToMe.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        btnAllocateToMe.setForeground(new java.awt.Color(255, 255, 255));
         btnAllocateToMe.setText("Accolate to Me");
         btnAllocateToMe.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -124,6 +126,7 @@ public class ProcessMedicalBillingsJPanel extends javax.swing.JPanel {
 
         backJButton.setBackground(new java.awt.Color(102, 102, 0));
         backJButton.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        backJButton.setForeground(new java.awt.Color(255, 255, 255));
         backJButton.setText("Back");
         backJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

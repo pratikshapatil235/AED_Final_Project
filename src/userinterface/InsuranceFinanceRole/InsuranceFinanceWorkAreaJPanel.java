@@ -75,6 +75,7 @@ public class InsuranceFinanceWorkAreaJPanel extends javax.swing.JPanel {
 
         btnAllocate.setBackground(new java.awt.Color(102, 102, 0));
         btnAllocate.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        btnAllocate.setForeground(new java.awt.Color(255, 255, 255));
         btnAllocate.setText("Allocate to Me");
         btnAllocate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -84,6 +85,7 @@ public class InsuranceFinanceWorkAreaJPanel extends javax.swing.JPanel {
 
         btnProcessFurther.setBackground(new java.awt.Color(102, 102, 0));
         btnProcessFurther.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        btnProcessFurther.setForeground(new java.awt.Color(255, 255, 255));
         btnProcessFurther.setText("Proceed Further");
         btnProcessFurther.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
