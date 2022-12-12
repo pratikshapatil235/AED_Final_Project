@@ -30,9 +30,7 @@ public class AccountantProcessRequestJPanel extends javax.swing.JPanel {
     private PawcareSystem ecosystem;
     private double payableAmount;
 
-    /**
-     * Creates new form AccountantWorkRequestJPanel
-     */
+   
     AccountantProcessRequestJPanel(JPanel userProcessContainer, User userAccount, AccountantBillingRequest request, Enterprise enterprise, PawcareSystem ecoSystem) {
         initComponents();
         this.userProcessContainer = userProcessContainer;
@@ -335,6 +333,7 @@ public class AccountantProcessRequestJPanel extends javax.swing.JPanel {
 
     private void btnCOllectCashActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCOllectCashActionPerformed
         CardLayout layout = (CardLayout) userProcessContainer.getLayout();
+        userProcessContainer.add("EmailBillingInformationToPatient", new EmailBillingInformationToPawPatient(userProcessContainer, accountBillingRequest));
         layout.next(userProcessContainer);
     }//GEN-LAST:event_btnCOllectCashActionPerformed
 
