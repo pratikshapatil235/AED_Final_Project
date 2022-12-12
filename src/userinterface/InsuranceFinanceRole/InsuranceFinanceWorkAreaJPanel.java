@@ -60,7 +60,7 @@ public class InsuranceFinanceWorkAreaJPanel extends javax.swing.JPanel {
                 {null, null, null, null, null, null, null, null}
             },
             new String [] {
-                "Policy Name", "Policy Number", "Coverage%", "Claim Amount", "Bill Amount", "Finance Manager", "Requesting HealthCenter ", "Insurance Claim Status"
+                "Policy Number", "Policy Name", "Coverage%", "Claim Amount", "Bill Amount", "Insurance Claim Status", "Requesting HealthCenter ", "Finance Manager"
             }
         ) {
             boolean[] canEdit = new boolean [] {

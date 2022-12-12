@@ -129,7 +129,7 @@ public class ManageEnterpriseAdminJPanel extends javax.swing.JPanel {
                 {null, null, null, null}
             },
             new String [] {
-                "Enterprise Name", "Enterprise Type", "Network", "Username"
+                "Enterprise Name", "Network", "Username", "Enterprise Type"
             }
         ) {
             boolean[] canEdit = new boolean [] {
@@ -148,7 +148,7 @@ public class ManageEnterpriseAdminJPanel extends javax.swing.JPanel {
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel1.setText("Network");
         add(jLabel1);
-        jLabel1.setBounds(40, 170, 52, 15);
+        jLabel1.setBounds(40, 170, 51, 15);
 
         networkJComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         networkJComboBox.addActionListener(new java.awt.event.ActionListener() {
@@ -157,7 +157,7 @@ public class ManageEnterpriseAdminJPanel extends javax.swing.JPanel {
             }
         });
         add(networkJComboBox);
-        networkJComboBox.setBounds(120, 170, 136, 22);
+        networkJComboBox.setBounds(120, 170, 136, 23);
 
         usernameJLabel.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         usernameJLabel.setText("Username");
@@ -173,7 +173,7 @@ public class ManageEnterpriseAdminJPanel extends javax.swing.JPanel {
 
         enterpriseJComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         add(enterpriseJComboBox);
-        enterpriseJComboBox.setBounds(470, 170, 136, 22);
+        enterpriseJComboBox.setBounds(470, 170, 136, 23);
 
         submitJButton.setBackground(new java.awt.Color(102, 102, 0));
         submitJButton.setForeground(new java.awt.Color(255, 255, 255));
@@ -189,9 +189,9 @@ public class ManageEnterpriseAdminJPanel extends javax.swing.JPanel {
         passwordJLabel.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         passwordJLabel.setText("Password");
         add(passwordJLabel);
-        passwordJLabel.setBounds(40, 260, 59, 15);
+        passwordJLabel.setBounds(40, 260, 58, 15);
         add(nameJTextField);
-        nameJTextField.setBounds(470, 210, 136, 22);
+        nameJTextField.setBounds(470, 210, 136, 23);
 
         nameJLabel.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         nameJLabel.setText("Name");
@@ -208,7 +208,7 @@ public class ManageEnterpriseAdminJPanel extends javax.swing.JPanel {
             }
         });
         add(backJButton);
-        backJButton.setBounds(10, 11, 74, 23);
+        backJButton.setBounds(10, 11, 80, 23);
         add(reEnterPasswordJPasswordField);
         reEnterPasswordJPasswordField.setBounds(470, 250, 136, 29);
 

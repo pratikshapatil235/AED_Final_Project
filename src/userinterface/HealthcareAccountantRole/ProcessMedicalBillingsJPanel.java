@@ -93,7 +93,7 @@ public class ProcessMedicalBillingsJPanel extends javax.swing.JPanel {
                 {null, null, null, null, null, null}
             },
             new String [] {
-                "PatientId", "Patient Name", "Accountant ", "Status", "Assigned Doctor", "Billing Amount"
+                "PatientId", "Patient Name", "Assigned Doctor", "Accountant ", "Status", "Billing Amount"
             }
         ) {
             Class[] types = new Class [] {
@@ -157,11 +157,11 @@ public class ProcessMedicalBillingsJPanel extends javax.swing.JPanel {
                 {null, null, null, null, null, null}
             },
             new String [] {
-                "Policy Number", "Insurance Agent", "Billing Amount", "Claim Status", "Claim Amount", "Accountant"
+                "Policy Number", "Accountant", "Insurance Agent", "Billing Amount", "Claim Amount", "Claim Status"
             }
         ) {
             Class[] types = new Class [] {
-                java.lang.Object.class, java.lang.String.class, java.lang.Object.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
+                java.lang.Object.class, java.lang.String.class, java.lang.String.class, java.lang.Object.class, java.lang.String.class, java.lang.String.class
             };
             boolean[] canEdit = new boolean [] {
                 false, false, false, false, false, false

@@ -79,11 +79,11 @@ public class LabAssistantWorkAreaJPanel extends javax.swing.JPanel {
                 {null, null, null, null, null, null}
             },
             new String [] {
-                "Sender", "Receiver", "Patient Id", "Patient Name(Paw)", "Status", "Message"
+                "Message", "Sender", "Receiver", "Status", "Patient Name(Paw)", "Patient Id"
             }
         ) {
             Class[] types = new Class [] {
-                java.lang.String.class, java.lang.String.class, java.lang.Object.class, java.lang.Object.class, java.lang.String.class, java.lang.Object.class
+                java.lang.Object.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.Object.class, java.lang.Object.class
             };
             boolean[] canEdit = new boolean [] {
                 false, false, false, false, false, false
@@ -104,6 +104,7 @@ public class LabAssistantWorkAreaJPanel extends javax.swing.JPanel {
 
         assignJButton.setBackground(new java.awt.Color(102, 102, 0));
         assignJButton.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        assignJButton.setForeground(new java.awt.Color(255, 255, 255));
         assignJButton.setText("Allocate to me");
         assignJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -115,6 +116,7 @@ public class LabAssistantWorkAreaJPanel extends javax.swing.JPanel {
 
         processJButton.setBackground(new java.awt.Color(102, 102, 0));
         processJButton.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        processJButton.setForeground(new java.awt.Color(255, 255, 255));
         processJButton.setText("Proceed further");
         processJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
