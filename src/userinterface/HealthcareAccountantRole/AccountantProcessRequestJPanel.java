@@ -104,6 +104,7 @@ public class AccountantProcessRequestJPanel extends javax.swing.JPanel {
 
         btnSendRequestForInsurance.setBackground(new java.awt.Color(102, 102, 0));
         btnSendRequestForInsurance.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        btnSendRequestForInsurance.setForeground(new java.awt.Color(255, 255, 255));
         btnSendRequestForInsurance.setText("Request sent for Insaurance Claim");
         btnSendRequestForInsurance.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -147,6 +148,7 @@ public class AccountantProcessRequestJPanel extends javax.swing.JPanel {
 
         btnCOllectCash.setBackground(new java.awt.Color(102, 102, 0));
         btnCOllectCash.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        btnCOllectCash.setForeground(new java.awt.Color(255, 255, 255));
         btnCOllectCash.setText("Recieved amount from owner");
         btnCOllectCash.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

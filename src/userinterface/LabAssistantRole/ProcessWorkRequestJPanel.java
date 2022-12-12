@@ -42,6 +42,7 @@ public class ProcessWorkRequestJPanel extends javax.swing.JPanel {
 
         submitJButton.setBackground(new java.awt.Color(102, 102, 0));
         submitJButton.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        submitJButton.setForeground(new java.awt.Color(255, 255, 255));
         submitJButton.setText("Submit");
         submitJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -61,6 +62,7 @@ public class ProcessWorkRequestJPanel extends javax.swing.JPanel {
 
         backJButton.setBackground(new java.awt.Color(102, 102, 0));
         backJButton.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        backJButton.setForeground(new java.awt.Color(255, 255, 255));
         backJButton.setText("Back");
         backJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

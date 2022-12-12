@@ -60,6 +60,7 @@ public class AccountantWorkAreaJPanel extends javax.swing.JPanel {
         jLabel3 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(255, 255, 255));
+        setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
@@ -68,6 +69,7 @@ public class AccountantWorkAreaJPanel extends javax.swing.JPanel {
 
         btnCreateDogAppointment.setBackground(new java.awt.Color(102, 102, 0));
         btnCreateDogAppointment.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        btnCreateDogAppointment.setForeground(new java.awt.Color(255, 255, 255));
         btnCreateDogAppointment.setText("Create Dog's Appointment");
         btnCreateDogAppointment.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -77,6 +79,7 @@ public class AccountantWorkAreaJPanel extends javax.swing.JPanel {
 
         btnProcessMedicalBillings.setBackground(new java.awt.Color(102, 102, 0));
         btnProcessMedicalBillings.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        btnProcessMedicalBillings.setForeground(new java.awt.Color(255, 255, 255));
         btnProcessMedicalBillings.setText("Process Medical Billings");
         btnProcessMedicalBillings.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -121,6 +124,7 @@ public class AccountantWorkAreaJPanel extends javax.swing.JPanel {
 
         treatment_desc.setBackground(new java.awt.Color(102, 102, 0));
         treatment_desc.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        treatment_desc.setForeground(new java.awt.Color(255, 255, 255));
         treatment_desc.setText("Treatment description");
         treatment_desc.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

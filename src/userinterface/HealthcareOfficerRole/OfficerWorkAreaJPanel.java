@@ -86,6 +86,7 @@ public class OfficerWorkAreaJPanel extends javax.swing.JPanel {
 
         btnAssign.setBackground(new java.awt.Color(102, 102, 0));
         btnAssign.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        btnAssign.setForeground(new java.awt.Color(255, 255, 255));
         btnAssign.setText("Allocate to me");
         btnAssign.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -95,6 +96,7 @@ public class OfficerWorkAreaJPanel extends javax.swing.JPanel {
 
         processRequestBtn.setBackground(new java.awt.Color(102, 102, 0));
         processRequestBtn.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        processRequestBtn.setForeground(new java.awt.Color(255, 255, 255));
         processRequestBtn.setText("Preoceed Further");
         processRequestBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

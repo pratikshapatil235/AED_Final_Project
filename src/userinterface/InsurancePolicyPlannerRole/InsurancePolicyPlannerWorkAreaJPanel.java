@@ -100,6 +100,7 @@ public class InsurancePolicyPlannerWorkAreaJPanel extends javax.swing.JPanel {
 
         btnCreatePolicy.setBackground(new java.awt.Color(102, 102, 0));
         btnCreatePolicy.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        btnCreatePolicy.setForeground(new java.awt.Color(255, 255, 255));
         btnCreatePolicy.setText("Create Paw Policy");
         btnCreatePolicy.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

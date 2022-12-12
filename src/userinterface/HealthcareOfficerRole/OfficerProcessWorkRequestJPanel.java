@@ -77,6 +77,7 @@ public class OfficerProcessWorkRequestJPanel extends javax.swing.JPanel {
 
         backBtn.setBackground(new java.awt.Color(102, 102, 0));
         backBtn.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        backBtn.setForeground(new java.awt.Color(255, 255, 255));
         backBtn.setText("Back");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
