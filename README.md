@@ -52,6 +52,11 @@ https://www3.ntu.edu.sg/home/ehchua/programming/howto/netbeans_howto.html
 # UML 
 ![UML](https://user-images.githubusercontent.com/113387627/206948321-0a7a6f96-cbaa-4903-825d-89abdba330da.jpeg)
 
+# Class Diagram
+# Class Diagram
+![Untitled Diagram drawio (1)](https://user-images.githubusercontent.com/113387783/206962147-7d7a52bf-267c-419a-98fd-67e338927a88.png)
+
+
 
 # Team Details 
 1. Pratiksha Patil(002762706 )
